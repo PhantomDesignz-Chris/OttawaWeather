@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>WeatherMan</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="weather">
+            <h1>Todays Weather</h1>
+            <div class="forecast">
+                <div class="forecastImage"></div>
+                <div class="forecastName"></div>
+            </div>
+
+            <div class="temperature">
+                <div class="celsius"></div>
+                <div class="spacer"></div>
+                <div class="fahrenheit"></div>
+                <div class="spacer"></div>
+                <div class="humidity"></div>
+            </div>
+
+            <div class="location">
+                <div class="time"></div>
+                <div class="spacer"></div>
+                <div class="city"></div>
+                <div class="regionCountry"></div>
+            </div>
+
+            <div class="sponsor">
+                <div class="spacer"></div>
+                <a href="https://www.weatherapi.com/" title="Free Weather API"><img src='http://cdn.weatherapi.com/v4/images/weatherapi_logo.png' alt="Weather data by WeatherAPI.com" border="0"></a>
+                <div class="spacer"></div>
+                <div class="note">NOTE: THIS ONLY WORKS FOR WEATHER IN OTTAWA</div>
+            </div>
+        </div>
+        <script src="js/main.js" async defer></script>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+.weather {
+    max-width: 400px;
+    background-color: darkgrey;
+    border-radius: 25px;
+    text-align: center;
+    margin: auto;
+    padding: 25px 0;
+}
+h1 {
+    text-align: center;
+}
+
+.spacer {
+    height: 10px;
+}
+
+/* FORECAST */
+
+.forecast {
+    text-align: center;
+}
+.forecastImage img{
+    width: 100px;
+}
+.forecastName {
+    font-size: 2rem;
+}
+
+/* TEMPERATURE */
+
+.temperature {
+    padding: 10px 0;
+    font-weight: 700;
+}
+.float {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+.celsius {
+    color: darkred;
+}
+.fahrenheit {
+    color: darkred;
+}
+
+/* LOCATION */
+
+/* .location {
+
+} */
+.city {
+    font-weight: 700;
+}
+/* .regionCountry {
+
+} */
